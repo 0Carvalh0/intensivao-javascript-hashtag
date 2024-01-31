@@ -43,7 +43,7 @@ function TrocarImagem() {
     '[name="opcao-imagem"]:checked'
   ).id;
   opcaoImagemSelecionada = opcaoImagem.charAt(0);
-  imagemVisualizacao.src = `./imagens/opcoes-cores/imagens-azul-inverno/imagem-${opcaoImagemSelecionada}.jpeg`;
+  imagemVisualizacao.src = `./imagens/opcoes-cores/${opcoesCores[opcaoCorSelecionada].pasta}/imagem-${opcaoImagemSelecionada}.jpeg`
 }
 
 function TrocarTamanho() {
@@ -67,4 +67,10 @@ function TrocarCor() {
   tituloProduto.innerText = `Pulseira loop esportiva ${opcoesCores[opcaoCorSelecionada].nome} para caixa de ${listaTamanhos[opcaoTamanhoSelecionado]}`;
 
   nomeCor.innerText = `Cor - ${opcoesCores[opcaoCorSelecionada].nome}`;
+
+  miniaturaImagem0.src = `./imagens/opcoes-cores/${opcoesCores[opcaoCorSelecionada].pasta}/imagem-0.jpeg`
+  miniaturaImagem1.src = `./imagens/opcoes-cores/${opcoesCores[opcaoCorSelecionada].pasta}/imagem-1.jpeg`
+  miniaturaImagem2.src = `./imagens/opcoes-cores/${opcoesCores[opcaoCorSelecionada].pasta}/imagem-2.jpeg`
+
+  imagemVisualizacao.src = `./imagens/opcoes-cores/${opcoesCores[opcaoCorSelecionada].pasta}/imagem-${opcaoImagemSelecionada}.jpeg`
 }
