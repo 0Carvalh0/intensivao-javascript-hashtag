@@ -31,6 +31,12 @@ html {
   background-position: center center;
 }
 
+#pag02 {
+  background: #000 url("../images/bg002.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 a {
   width: 100%;
   display: flex;
