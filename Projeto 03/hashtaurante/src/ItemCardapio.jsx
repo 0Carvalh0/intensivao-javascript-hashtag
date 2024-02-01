@@ -1,18 +1,16 @@
-import { enroladinhoMignon } from "./cardapio.js";
-
-export function ItemCardapio() {
+export function ItemCardapio(props) {
   return (
     <div className="container-item-cardapio">
       <div>
         {/* Nome do prato */}
-        <h2>{enroladinhoMignon.nome}</h2>
+        <h2>{props.nome}</h2>
         {/* Preço do prato */}
-        <p>{enroladinhoMignon.preco}</p>
+        <p>{props.preco}</p>
         {/* Descrição do prato */}
-        <p>{enroladinhoMignon.descricao}</p>
+        <p>{props.descricao}</p>
       </div>
       {/* Imagem do prato */}
-      <img src={enroladinhoMignon.imagem} />
+      <img src={props.imagem} />
     </div>
   );
 }
