@@ -22,17 +22,23 @@ html {
   align-items: center;
   justify-content: center;
 
-  border: 1px solid black;
+  border: 1px solid #000;
 }
 
 #pag01 {
-  background: black url("../images/bg001.jpg") no-repeat;
+  background: #000 url("../images/bg001.jpg") no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 #pag02 {
   background: #000 url("../images/bg002.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#pag03 {
+  background: #000 url("../images/bg003.png") no-repeat;
   background-size: cover;
   background-position: center center;
 }
