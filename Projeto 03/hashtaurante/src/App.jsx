@@ -1,5 +1,6 @@
 import Hashtaurantecapa from "./assets/hashtaurante.webp";
 import { Navegacao } from "./Navegacao.jsx";
+import { ItemCardapio } from "./ItemCardapio.jsx";
 import "./App.css";
 
 export function App() {
@@ -7,6 +8,7 @@ export function App() {
     <>
       <img src={Hashtaurantecapa} className="capa" />
       <Navegacao />
+      <ItemCardapio />
     </>
   );
 }
