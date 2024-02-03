@@ -14,4 +14,4 @@ io.addListener("connection", (socket) => {
 
 aplication.use(express.static("public"));
 
-servidorHttp.listen(1000);
+servidorHttp.listen(1000, "192.168.68.107");
