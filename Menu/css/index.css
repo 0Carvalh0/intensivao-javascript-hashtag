@@ -43,6 +43,12 @@ html {
   background-position: center center;
 }
 
+#pag04 {
+  background: #000 url("../images/bg004.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 a {
   width: 100%;
   display: flex;
